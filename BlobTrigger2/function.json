@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "insights-logs-networksecuritygroupflowevent/resourceId=/SUBSCRIPTIONS/416C7D52-C045-4733-AF7F-58A940A5E314/RESOURCEGROUPS/ICL-DEMO-NSG/PROVIDERS/MICROSOFT.NETWORK/NETWORKSECURITYGROUPS/{name}",
+      "connection": "icldemonsgdiag_STORAGE"
+    }
+  ]
+}
